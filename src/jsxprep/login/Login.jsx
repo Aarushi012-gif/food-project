@@ -32,6 +32,7 @@ function Login({ setIsLoggedIn, setShowLogin , setUserName}){
 
     return(
         <>
+        <div className="login-overlay">
         <div className="login-card">
          <button
                 type="button"
@@ -68,6 +69,7 @@ function Login({ setIsLoggedIn, setShowLogin , setUserName}){
         </>
         )}
         
+        </div>
         </div>
         
         </>

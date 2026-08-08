@@ -182,43 +182,38 @@
     border-right-color: var(--border);
   }
 }
-/* .dark{
-  background-color: blue;
-  color: white;
-}
-.light{
-  background-color: white;
-  color: black;
+/* food project css */
 
-  
-} */
-/* .container{
-  width: 40%;
-  margin-top: 10px;
-  border: 2px solid;
+.header-main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:white;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
-.tex{
-  text-align: center;
-  font-size: 25px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.row{
-  border: 0px solid ;
-}
-.input-box{
-  margin-top: 8px;
-  margin-bottom: 20px;
-  margin-left: 70px;
-} */
-.header-list
+.logo-section
 {
-    list-style: none;
     display: flex;
-    justify-content: center;            /*horizental center*/
-    align-items: center;                /*vertical center*/
-    gap: 30px;
-    padding: 0;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+.nav-section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-left: 8%;
 }
 ul {
   display: flex;
@@ -240,45 +235,46 @@ li a{
 li a:hover {
   color: rgb(173, 36, 11);
   font-weight: bold;
+  
 }
-.header{
-  display: flex;
-  align-items: center;
-  gap: 50px;
+.header-list{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    list-style:none;
+    margin:0;
+    padding:0;
 }
-/* .search-card{
-    width: 400px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 15px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    
-} */
- .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-list li a{
+    text-decoration:none;
+    color: #222;
+    font-size:18px;
+    font-weight:600;
+    transition: .3s;
+    position: relative;
 }
-
-.header-list {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.header-list li a::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background: #ef781d;
+    transition: .3s;
 }
-
-.header-list li a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    transition: 0.3s ease;
+.header-list li a:hover::after{
+    width:100%;   
 }
-
-.header-list li a:hover {
-    color: rgb(237, 110, 63);
+.right-section{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+.search-box
+{
+    width: 320px;
+    position: relative;
 }
 .food-img {
   
@@ -358,32 +354,23 @@ li a:hover {
     padding-bottom: 10px;
 }
 .search-input{
-    width: 100%;
-    height: 45px;
-    border: 2px solid #ef781d;
-    border-radius: 30px;
-    padding: 0 18px;
+    width:100%;
+    height:48px;
+    border-radius:30px;
+    padding: 0 20px;
+    border : 2px solid  #ef781d;
     outline: none;
     transition: .3s;
+    box-shadow:0 2px 8px rgba(239,120,29,.08);
 }
-
 .search-input:focus{
-    box-shadow: 0 0 8px rgba(248, 111, 6, 0.959);
+    box-shadow:0 0 8px rgba(239,120,29,.3);
 }
-.search-box{
-  position: relative;
-  width: 100%;
-}
-.search-box{
-    position: relative;
-    width: 100%;
-}
-
 .search-result{
     position: absolute;
     top: 100%;      /* Input ke neeche */
     left: 0;
-    width: 50%;
+    width: 100%;
     background: white;
     border-radius: 10px;
     margin-top: 5px;
@@ -803,59 +790,22 @@ li a:hover {
     font-weight: bold;
     margin-bottom: 15px;
 }
-.search-login{
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
-.login-btn {
-    padding: 8px 22px;
-    border: 2px solid rgb(237, 110, 63);
-    border-radius: 20px;
-    background-color: rgb(237, 110, 63);
-    color: white;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-
-.login-btn:hover {
-    background-color: white;
-    color: rgb(237, 110, 63);
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(237, 110, 63, 0.3);
-}
-.login-card input{
-    width:100%;
-    padding:12px;
-    margin:10px 0;
-    border-radius:8px;
-    border:1px solid #ccc;
-}
-
-.login-card button{
-    width:100%;
-    padding:12px;
+.login-btn{
+    width:115px;
+    height:48px;
     border:none;
-    border-radius:8px;
-    background:orange;
-    cursor:pointer;
-    font-size:16px;
+    border-radius:30px;
+    background:#ef781d;
+    color:white;
+    font-weight:600;
+    font-size: 16px;
+    transition : .3s;
+    box-shadow : 0 4px 10px rgba(239,120,29,.25);
 }
-.login-card {
-    width: 350px;
-    padding: 30px;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px gray;
-    text-align: center;
 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
+.login-btn:hover{
+    background:#d95d00;
+    transform:translateY(-2px);
 }
 .success-message {
     width: 350px;
@@ -869,12 +819,15 @@ li a:hover {
     font-weight: bold;
     box-sizing: border-box;
 }
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
 .welcome{
-  margin-left: 20px;
-    margin-top: 5px;
-    font-size: 18px;
-    font-weight: 600;
-    animation: welcomeAnimation 1s ease-in-out;
+    margin:0;
+    font-size:14px;
+    color:#666;
 }
 @keyframes welcomeAnimation {
     0% {
@@ -899,12 +852,58 @@ li a:hover {
     }
 } */
  
-.login-card {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
+.login-card{
+    width:380px;
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    animation:popup .35s ease-out;
+}
+@keyframes popup{
+    from{
+        opacity:0;
+        transform:translateY(-20px) scale(.9);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0) scale(1);
+    }
+}
+.login-card h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#ef781d;
+    font-weight:bold;
+}
+.login-card input{
+    width:100%;
+    height:48px;
+    border:2px solid #ddd;
+    border-radius:12px;
+    margin-bottom:18px;
+    padding:0 15px;
+    outline:none;
+    transition:.3s;
+}
+.login-card input:focus{
+    border-color:#ef781d;
+}
+.login-card button{
+    width:100%;
+    height:48px;
+    border:none;
+    border-radius:12px;
+    background:#ef781d;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.login-card button:hover{
+    background:#d95f08;
 }
 
 .login-card .close-login {
@@ -938,4 +937,16 @@ li a:hover {
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+}
+.login-overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,.45);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
 }

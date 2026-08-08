@@ -44,13 +44,22 @@ import {  useState , useRef , useEffect} from "react";
 
         return(
             <>
-                <div className="container">
-                    <div className="row ">
-                        <div className="col-md-4">
-                            <img src={logo} alt="logo" width="100" height="100" style={{marginLeft:"20px" , marginTop:"15px"}}/>
-                            <p className="welcome">{isLoggedIn ? `Welcome, ${userName}` : "Welcome"}</p>
+                <div className="header-main">
+                
+                        <div className="logo-section">
+                            <div className="logo">
+                                <img
+                                    src={logo}
+                                    alt="logo"
+                                />
+                                <div>
+                                    <p className="welcome">
+                                        {isLoggedIn ? `Welcome, ${userName}` : "Welcome"}
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-md-4 header" >
+                        <div className="nav-section" >
                             <ul  className="header-list">
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/contact">Contact Us</Link></li>
@@ -60,7 +69,7 @@ import {  useState , useRef , useEffect} from "react";
                                 </Link></li>
                             </ul>
                         </div>
-                        <div className="col-md-4 header">
+                        <div className="right-section">
                              <div className="search-box"  ref={searchRef}>
                                 <input type="text"
                                     placeholder="🔍 Search Food..."
@@ -70,7 +79,6 @@ import {  useState , useRef , useEffect} from "react";
                                         setSearch(value);
                                         value ? setShow(true): setShow(false);
                                     }}
-                                    style={{width:"100%" , float:"right" ,height:"35px" , borderRadius:"30px"}}  
                                     className="search-input"/>
                                     {
                                         show && search ?
@@ -123,7 +131,7 @@ import {  useState , useRef , useEffect} from "react";
                     </div>
                     <div style={{marginTop:"50px"}}>
                 </div>
-                </div>
+                
             </>
 
         )
