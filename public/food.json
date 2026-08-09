@@ -281,49 +281,49 @@
         "id":601,
         "name": "Chocolate Cake",
         "price": 119,
-        "image": "/images/vbf.png"
+        "image": "/images/chocolatecake.png"
       },
       {
         "id":602,
         "name": "Chocolate Brownie",
         "price": 99,
-        "image": "/images/vbf.png"
+        "image": "/images/chocolatebrowine.png"
       },
       {
         "id":603,
         "name": "Red Velvet Cake",
         "price": 149,
-        "image": "/images/vbf.png"
+        "image": "/images/redvelvate.png"
       },
       {
         "id":604,
         "name": "Ice Cream",
         "price": 59,
-        "image": "/images/vbf.png"
+        "image": "/images/icecream.png"
       },
       {
         "id":605,
         "name": "Cheesecake",
         "price": 160,
-        "image": "/images/vbf.png"
+        "image": "/images/chessecake.png"
       },
       {
         "id":606,
         "name": "Donut",
         "price": 49,
-        "image": "/images/vbf.png"
+        "image": "/images/donut.png"
       },
       {
         "id":607,
         "name": "Waffle",
         "price": 120,
-        "image": "/images/vbf.png"
+        "image": "/images/waffle.png"
       },
       {
         "id":608,
         "name": "Chocolate Mousse",
         "price": 99,
-        "image": "/images/vbf.png"
+        "image": "/images/mousse.png"
       }
     ]
   },
@@ -332,55 +332,55 @@
     "name": "Chinese Food",
     "category": "Fast Food",
     "price": 80,
-    "image": "/images/vadaPav.png",
+    "image": "/images/chinese.png",
     "item" : [
       {
         "id":701,
         "name": "Veg Hakka Noodles",
         "price": 99,
-        "image": "/images/vbf.png"
+        "image": "/images/veghakka.png"
       },
       {
         "id":702,
         "name": "Schezwan Noodles",
         "price": 120,
-        "image": "/images/vbf.png"
+        "image": "/images/snoddles.png"
       },
       {
         "id":703,
         "name": "Veg Fried Rice",
         "price": 100,
-        "image": "/images/vbf.png"
+        "image": "/images/friedrice.png"
       },
       {
         "id":704,
         "name": "Chilli Potato",
         "price": 79,
-        "image": "/images/vbf.png"
+        "image": "/images/chillipotato.png"
       },
       {
         "id":705,
         "name": "Veg Chowmein",
         "price": 100,
-        "image": "/images/vbf.png"
+        "image": "/images/vegchowmin.png"
       },
       {
         "id":706,
         "name": "Chilli Mushroom",
         "price": 120,
-        "image": "/images/vbf.png"
+        "image": "/images/chillimashroom.png"
       },
       {
         "id":707,
         "name": "Chinese Bhel",
         "price": 89,
-        "image": "/images/vbf.png"
+        "image": "/images/bhel.png"
       },
       {
         "id":708,
         "name": "Veg Manchurian",
         "price": 109,
-        "image": "/images/vbf.png"
+        "image": "/images/manchu.png"
       }
     ]
   },
@@ -395,55 +395,55 @@
         "id":801,
         "name": "Plain Dosa",
         "price": 79,
-        "image": "/images/vbf.png"
+        "image": "/images/plaindosa.png"
       },
       {
         "id":802,
         "name": "Masala Dosa",
         "price": 99,
-        "image": "/images/vbf.png"
+        "image": "/images/masaladosa.png"
       },
       {
         "id":803,
         "name": "Vada Sambhar",
         "price": 59,
-        "image": "/images/vbf.png"
+        "image": "/images/vada.png"
       },
       {
         "id":804,
         "name": "Medu Vada",
         "price": 69,
-        "image": "/images/vbf.png"
+        "image": "/images/medu.png"
       },
       {
         "id":805,
         "name": "Masla Vada",
         "price": 60,
-        "image": "/images/vbf.png"
+        "image": "/images/masalavada.png"
       },
       {
         "id":806,
         "name": "Uttapam",
         "price": 90,
-        "image": "/images/vbf.png"
+        "image": "/images/uttapam.png"
       },
       {
         "id":807,
         "name": "Rava Dosa",
         "price": 99,
-        "image": "/images/vbf.png"
+        "image": "/images/ravadosa.png"
       },
       {
         "id":808,
         "name": "Lemon Rice",
         "price": 79,
-        "image": "/images/vbf.png"
+        "image": "/images/lemonrice.png"
       },
       {
         "id":809,
         "name": "Sambar Rice",
         "price": 79,
-        "image": "/images/vbf.png"
+        "image": "/images/sambarrice.png"
       }
     ]
   },
@@ -458,49 +458,49 @@
         "id":901,
         "name": "Vada Pav",
         "price": 39,
-        "image": "/images/vbf.png"
+        "image": "/images/vadapavv.png"
       },
       {
         "id":902,
         "name": "Samosa",
         "price": 30,
-        "image": "/images/vbf.png"
+        "image": "/images/samosa.png"
       },
       {
         "id":903,
         "name": "Gol Gappe",
         "price": 30,
-        "image": "/images/vbf.png"
+        "image": "/images/golgappe.png"
       },
       {
         "id":904,
         "name": "Dahi Bhalla",
         "price": 69,
-        "image": "/images/vbf.png"
+        "image": "/images/dahibhalle.png"
       },
       {
         "id":905,
         "name": "Pav Bhaji",
         "price": 99,
-        "image": "/images/vbf.png"
+        "image": "/images/pavbhaji.png"
       },
       {
         "id":906,
         "name": "Bhel Puri",
         "price": 50,
-        "image": "/images/vbf.png"
+        "image": "/images/bhelpuri.png"
       },
       {
         "id":907,
         "name": "Sev Puri",
         "price": 59,
-        "image": "/images/vbf.png"
+        "image": "/images/sev.png"
       },
       {
         "id":908,
         "name": "Pakora",
         "price": 99,
-        "image": "/images/vbf.png"
+        "image": "/images/pakoda.png"
       }
     ]
   },
@@ -509,7 +509,7 @@
     "name": "Beverages",
     "category": "Fast Food",
     "price": 149,
-    "image" : "/images/taccos.png",
+    "image" : "/images/baverages.png",
     "item":[
       {
         "id":1001,

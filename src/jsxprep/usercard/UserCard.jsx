@@ -184,23 +184,36 @@ function UserCard(){
     }
     return(
         <>
+        <div className="menu-hero">
+                <div className="hero-content">
+                    <span>EXPLORE OUR MENU</span>
+                    <h1>
+                        Delicious Food,<br />
+                        <strong>Delivered With Love </strong>
+                    </h1>
+                    <p>Fresh, delicious and made just for you.</p>
+                </div>
+                <div className="hero-image">
+                        <img src="/images/headeremovebgpng.png" alt="Delicious Burger" />
+                </div>
+        </div>
             <div className="container">
                 <div className="row">
                     {
                         foodData.map((item)=>(
                                 <div className="col-md-4 mb-5" key={item.id}>
-                                <div className="card food-card"
-                                    onClick={()=> navigate(`/food/${item.id}`)}
-                                
-                                >
+                                <div className="usercard-css"
+                                    onClick={()=> navigate(`/food/${item.id}`)}>
                                     <img src={item.image} alt={item.name} className="food-img card-img-top"/>
-                                <div className="card-css">
+                                <div className="user-card-css">
+                                    <div className="card-info">
                                     <h3>{item.name}</h3>
                                     <p> Starting at ₹{item.price}</p>
                                 </div>
                                 <button className="btn">
-                                   See More --
+                                   See More →
                                 </button>
+                                </div>
                             </div>
                                 </div>
                         )
