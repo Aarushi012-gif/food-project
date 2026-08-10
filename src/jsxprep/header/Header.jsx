@@ -1,4 +1,4 @@
-import Login from "../Login/Login";
+import Login from "../login/Login";
 import { Link , useNavigate} from "react-router-dom";
 import logo from "../../assets/finalLogo.png";  
 import "../../App.css";
