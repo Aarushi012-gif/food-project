@@ -1142,3 +1142,373 @@ li a:hover {
     display: flex;
     justify-content: center;
 }
+
+
+/* mobile responsive */
+
+
+@media (max-width: 768px) {
+
+    /* ---------- HEADER ---------- */
+
+    .header-main {
+        padding: 10px 12px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo {
+        gap: 6px;
+    }
+
+    .welcome {
+        font-size: 10px;
+    }
+
+    .nav-section {
+        order: 3;
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .header-list {
+        width: 100%;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .header-list li a {
+        font-size: 13px;
+    }
+
+    .right-section {
+        gap: 8px;
+    }
+
+    .search-box {
+        width: 150px;
+    }
+
+    .search-input {
+        height: 38px;
+        padding: 0 12px;
+        font-size: 12px;
+    }
+
+    .login-btn {
+        width: 75px;
+        height: 38px;
+        font-size: 12px;
+    }
+
+
+    /* ---------- HOME / HERO ---------- */
+
+    .menu-hero {
+        height: auto;
+        min-height: 190px;
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .hero-content {
+        width: 48%;
+    }
+
+    .hero-content h1 {
+        font-size: 22px;
+    }
+
+    .hero-content p {
+        font-size: 10px;
+    }
+
+    .hero-content span {
+        font-size: 9px;
+    }
+
+    .hero-image {
+        width: 52%;
+    }
+
+    .hero-image img {
+        width: 115%;
+        height: 190px;
+        transform: none;
+    }
+
+
+    /* ---------- POPULAR FOOD CARDS ---------- */
+
+    .home-section {
+        padding: 25px 10px;
+    }
+
+    .home-section h4 {
+        font-size: 24px;
+    }
+
+    .home-image {
+        gap: 15px;
+    }
+
+    .home-card {
+        width: 150px;
+        padding: 10px;
+    }
+
+    .home-card img {
+        height: 100px;
+    }
+
+    .home-card h4 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .home-card p {
+        font-size: 11px;
+    }
+
+
+    /* ---------- WHY SECTION ---------- */
+
+    .why-section {
+        padding: 30px 10px;
+    }
+
+    .why-section h3 {
+        font-size: 22px;
+    }
+
+    .why-container {
+        gap: 15px;
+    }
+
+    .why-card {
+        width: 140px;
+        min-height: 120px;
+        padding: 15px 10px;
+    }
+
+    .why-card h4 {
+        font-size: 16px;
+    }
+
+    .why-card p {
+        font-size: 12px;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .footer {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    .main-footer,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .footer h3,
+    .footer h4 {
+        font-size: 18px;
+    }
+
+    .footer p,
+    .footer-links a {
+        font-size: 12px;
+    }
+
+
+    /* ---------- CART ---------- */
+
+    .cart-container {
+        width: calc(100% - 30px);
+        max-width: none;
+        box-sizing: border-box;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .cart-item {
+        gap: 10px;
+        padding: 10px 5px;
+    }
+
+    .cart-image {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .cart-details {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .cart-details h3 {
+        font-size: 13px;
+    }
+
+    .cart-details p {
+        font-size: 12px;
+    }
+
+    .quantity {
+        width: fit-content;
+    }
+
+
+    /* ---------- ORDER SUMMARY ---------- */
+
+    .summary {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 18px;
+        margin-top: 20px;
+    }
+
+    .summary h3 {
+        font-size: 20px;
+    }
+
+    .summary p {
+        font-size: 12px;
+    }
+
+    .summary h4 {
+        font-size: 18px;
+    }
+
+    .checkout-btn {
+        font-size: 14px;
+    }
+
+    .checkout-btn1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    /* ---------- CONTACT ---------- */
+
+    .contact-form {
+        width: calc(100% - 30px);
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .contact-info {
+        width: calc(100% - 30px);
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .contact-container {
+        gap: 20px;
+    }
+
+
+    /* ---------- MENU FOOD ITEMS ---------- */
+
+    .food-items-container {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .card-css {
+        width: 45%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .food-img,
+    .card-img-top {
+        height: 130px;
+    }
+
+
+    /* ---------- LOGIN ---------- */
+
+    .login-card {
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+        padding: 25px;
+    }
+}
+
+
+/* VERY SMALL PHONES */
+
+@media (max-width: 480px) {
+
+    .header-main {
+        padding: 8px;
+    }
+
+    .logo img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .header-list {
+        gap: 12px;
+    }
+
+    .header-list li a {
+        font-size: 12px;
+    }
+
+    .search-box {
+        width: 135px;
+    }
+
+    .search-input {
+        height: 34px;
+        font-size: 11px;
+    }
+
+    .login-btn {
+        width: 68px;
+        height: 34px;
+        font-size: 11px;
+    }
+
+    .home-card {
+        width: 145px;
+    }
+
+    .why-card {
+        width: 135px;
+    }
+
+    .card-css {
+        width: 90%;
+    }
+
+    .hero-content h1 {
+        font-size: 18px;
+    }
+
+    .hero-image img {
+        height: 160px;
+    }
+}
